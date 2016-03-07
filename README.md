@@ -6,17 +6,17 @@ This git repository is Spring-boot with Jersey implementation. The jerseyapp is 
 Usage
 ------
 
-git clone https://github.com/ajaysenreddy/JerseyApp.git
-cd JerseyApp
-mvn clean install
+git clone https://github.com/ajaysenreddy/JerseyApp.git  
+cd JerseyApp  
+mvn clean install  
 
 How to Use
 -----------
 
 After you have completed the above steps, you can perform the below steps.
-cd target
-java -jar jerseyapp-<version>.jar
-ex: _java -jar jerseyapp-1.0-SNAPSHOT.jar_
+cd target  
+java -jar jerseyapp-<version>.jar  
+ex: _java -jar jerseyapp-1.0-SNAPSHOT.jar_  
 
 You can use any rest client that you have on your machine or you can download from internet 
 ex. (Postman, SOAP UI or Advanced Rest Client etc.) to see how this application works.
@@ -24,8 +24,8 @@ ex. (Postman, SOAP UI or Advanced Rest Client etc.) to see how this application 
 In my case, I am using Advanced REST client a chrome extension to make a call to this rest api and getting the geocoded address information from Google Geocoding API. 
 Request
 --------
-Http method : **_GET_**
-Enter the URL :  _http://localhost:8080/rest/geocoding?address=100 E Remington Dr, Sunnyvale_
+Http method : **_GET_**  
+Enter the URL :  _http://localhost:8080/rest/geocoding?address=100 E Remington Dr, Sunnyvale_  
 
 Response
 ---------
